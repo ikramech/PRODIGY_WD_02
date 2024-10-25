@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<video id="backgroundVideo" autoplay loop muted>
+    <source src="bagraound.mp4" type="video/mp4">
+  
+  </video>
+  
+
+  <div class="title-container">
+    <span class="letter">S</span>
+    <span class="letter">T</span>
+    <span class="letter">O</span>
+    <span class="letter">P</span>
+    <span class="letter">W</span>
+    <span class="letter">A</span>
+    <span class="letter">T</span>
+    <span class="letter">C</span>
+    <span class="letter">H</span>
+  </div>
+
+  <div class="stopwatch-container">
+    <div class="time-display">
+      <div class="time-box" id="hour1">0</div>
+      <div class="time-box" id="hour2">0</div>
+      <div class="colon">:</div>
+      <div class="time-box" id="minute1">0</div>
+      <div class="time-box" id="minute2">0</div>
+      <div class="colon">:</div>
+      <div class="time-box" id="second1">0</div>
+      <div class="time-box" id="second2">0</div>
+      <div class="colon">:</div>
+      <div class="time-box" id="millisecond1">0</div>
+      <div class="time-box" id="millisecond2">0</div>
+    </div>
+    
+    
+    <div class="buttons">
+      <button id="start"><i class="fa-solid fa-play"></i></button>
+      <button id="stop"><i class="fa-solid fa-circle-pause"></i></button>
+      <button id="reset"><i class="fa-solid fa-rotate"></i></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
